@@ -11,10 +11,7 @@ on init
 
     # for backwards compatibility
     symlink /sdcard /mnt/sdcard
-    symlink /sdcard /storage/sdcard0
-
-    # By default, primary storage is physical
-    setprop ro.vold.primary_physical 1
+    symlink /sdcard /storage/sdcard
 
 # Disable CFQ slice idle delay
     write /sys/block/mmcblk0/queue/iosched/slice_idle 0
