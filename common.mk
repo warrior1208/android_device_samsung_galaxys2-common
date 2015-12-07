@@ -59,10 +59,6 @@ PRODUCT_PACKAGES := \
     com.android.future.usb.accessory \
     SamsungServiceMode
 
-# Samsung symbols
-PRODUCT_PACKAGES += \
-    libsamsung_symbols
-
 # Audio Packages
 PRODUCT_PACKAGES += \
     AdvancedDisplay \
